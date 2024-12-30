@@ -85,7 +85,7 @@
   <section id="eventos" class="mb-12 sm:mb-16 py-12 sm:py-16 bg-verde-900">
     <div class="container">
       <p class="mb-4 text-center text-verde-200 uppercase tracking-widest text-sm">Conecte-se com a natureza</p>
-      <h2 class="capitalize text-4xl sn:text-6xl font-serif text-center text-balance pb-8">Cada som, cada momento, uma nova descoberta</h2>
+      <h2 class="capitalize text-4xl sm:text-6xl font-serif text-center text-balance pb-8">Cada som, cada momento, uma nova descoberta</h2>
       <div class="overflow-x-auto snap-x snap-mandatory grid gap-4 grid-cols-[repeat(3,minmax(300px,1fr))] sm:gap-8">
         <div>
           <div class="grid gap-4 snap-center p-6 sm:p-8 rounded-xl bg-verde-800">
@@ -124,6 +124,71 @@
         </div>
       </div>
 
+      <section id="experiencias" class="container grid sm:grid-cols-2 mb-12 sm:mb-16 gap-8">
+        <div class="bg-verde-900 p-6 sm:p-8 rounded-xl">
+          <p class="mb-4 text-center text-verde-200 uppercase tracking-widest text-sm">Experiências Exclusivas</p>
+          <h2 class="capitalize text-4xl sm:text-6xl font-serif text-center text-balance pb-8">Escolha sua próxima aventura</h2>
+          <h3 class="text-white text-xl flex items-center gap-4 before:h-0.5 before:w-6 before:bg-verde-400 hover:before:w-10 hover:before:bg-yellow-400 before:transition-[width]">Observação noturna</h3>
+          <p class="mb-8 text-balance text-gray-400 pl-10">Explore a vida selvagem em seu habitat natural sob as estrelas.</p>
+          <h3 class="text-white text-xl flex items-center gap-4 before:h-0.5 before:w-6 before:bg-verde-400 hover:before:w-10 hover:before:bg-yellow-400 before:transition-[width]">Vida Selvagem</h3>
+          <p class="mb-8 text-balance text-gray-400 pl-10">Observe a vida selvagem em seu habitat natural.</p>
+          <h3 class="text-white text-xl flex items-center gap-4 before:h-0.5 before:w-6 before:bg-verde-400 hover:before:w-10 hover:before:bg-yellow-400 before:transition-[width]">Canoagem</h3>
+          <p class="mb-8 text-balance text-gray-400 pl-10">Conquiste novos horizontes com nossa equipe especializada.</p>
+        </div>
+        <div class="grid grid-cols-1 *:max-h-40 *:sm:max-h-full md:grid-cols-2 grid-rows-2 gap-4">
+          <div class="relative cursor-pointer overflow-hidden group">
+            <img class="object-cover size-full group-hover:scale-110 transition-all rounded-md" src="./img/canoagem.jpg" alt="">
+            <div class="flex items-center justify-center absolute   inset-0 bg-gradient-to-t from-verde-950/80 opacity-0 hover:opacity-100">
+              <span class="text-white uppercase tracking-widest">Canoagem</span>
+            </div>
+          </div>
+          <div class="relative row-span-2 cursor-pointer overflow-hidden group">
+            <img class="object-cover size-full group-hover:scale-110 transition-all rounded-md" src="./img/observacao-noturna.jpg" alt="">
+            <div class="flex items-center justify-center absolute   inset-0 bg-gradient-to-t from-verde-950/80 opacity-0 hover:opacity-100">
+              <span class="text-white uppercase tracking-widest text-balance text-center">Observação noturna</span>
+            </div>
+          </div>
+          <div class="relative cursor-pointer overflow-hidden group">
+            <img class="object-cover size-full group-hover:scale-110 transition-all rounded-md" src="./img/vida-selvagem.jpg" alt="">
+            <div class="flex items-center justify-center absolute   inset-0 bg-gradient-to-t from-verde-950/80 opacity-0 hover:opacity-100">
+              <span class="text-white uppercase tracking-widest">Vida selvagem</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </section>
+
+  <section class="container bg-[url('./img/padrao.svg')] bg-no-repeat bg-contain bg-center mb-12 sm:mb-16 sm:py-16">
+    <p class="mb-4 text-center text-verde-200 uppercase tracking-widest text-sm">Conecte-se com a natureza</p>
+    <h2 class="capitalize text-4xl sm:text-6xsl font-serif text-center text-balance pb-8">Ritmo da floresta</h2>
+
+    <div class="flex flex-col gap-4 sm:flex-row sm:gap-8">
+      <div class="grid flex-1 gap-4 bg-verde-900 p-6 sm:p-8 rounded-xl hover:translate-y-2 transition-all">
+        <div class="bg-verde-400 size-10 flex items-center justify-center rounded-full">
+          <img src="./img/manha.svg" alt="">
+        </div>
+        <h3 class="font-serif text-2xl text-white">Amanhecer</h3>
+        <p class="text-gray-400">Desperte com o canto dos pássaros e participe das nossas caminhadas ao ar livre.</p>
+        <span>05:40 - 07:00</span>
+      </div>
+      <div class="grid flex-1 gap-4 bg-verde-900 p-6 sm:p-8 rounded-xl translate-y-12 hover:translate-y-10 transition-all">
+        <div class="bg-verde-400 size-10 flex items-center justify-center rounded-full">
+          <img src="./img/dia.svg" alt="">
+        </div>
+        <h3 class="font-serif text-2xl text-white">Meio-dia</h3>
+        <p class="text-gray-400">Explore nossas trilhas sombreadas e desfrute de um piquenique gourmet na natureza.</p>
+        <span>12:00 - 14:00</span>
+      </div>
+      <div class="grid flex-1 gap-4 bg-verde-900 p-6 sm:p-8 rounded-xl hover:translate-y-2 transition-all">
+        <div class="bg-verde-400 size-10 flex items-center justify-center rounded-full">
+          <img src="./img/noite.svg" alt="">
+        </div>
+        <h3 class="font-serif text-2xl text-white">Anoitecer</h3>
+        <p class="text-gray-400">Termine seu dia com nossa sessão de observação de estrelas.</p>
+        <span>19:00 - 21:00</span>
+      </div>
     </div>
   </section>
 </body>
